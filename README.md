@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋 soy Cristobal Alvarado o zBleend en Redes / Full Stack en Formación </h1> 
+<h1 align="center">Hola 👋 soy Cristobal / Full Stack en Formación </h1> 
 
 <p align="center">
   <a href="https://www.linkedin.com/in/cristobal-a-abrigo/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
