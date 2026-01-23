@@ -80,18 +80,7 @@
 <br>
 <br>
 
-
 <h2>GitHub Stats :octocat:</h2>
 <p align="center">
-  <table align="center">
-<tr border="none">
-<td width="50%" align="center">
-  <img  title="Racha de contribuciones" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=zBleend&theme=dark&hide_border=false" /> 
-</td>
-
-<td width="50%" align="center">
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=zBleend&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=6"/>
-  </td>
-</tr>
-</table>
+  <img title="Racha de contribuciones" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=zBleend&theme=dark&hide_border=false" /> 
 </p>
