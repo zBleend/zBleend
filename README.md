@@ -39,8 +39,8 @@
         Aplicación de consola para gestión de stock y ventas.
     </p>
     <p align="center">
-      <a href="LINK_DE_TU_REPO_AQUI" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
-    </p>       
+        <a href="https://github.com/zBleend" target="blank"><img align="center" src="https://img.shields.io/badge/Estado-En_Construcción-orange?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+    </p>        
   </td>
   
   <td width="50%" align="center">
@@ -49,8 +49,8 @@
         Scripts para cálculos matemáticos y lógica de negocio.
     </p>
     <p align="center">
-      <a href="LINK_DE_TU_REPO_AQUI" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
-    </p>       
+        <a href="https://github.com/zBleend" target="blank"><img align="center" src="https://img.shields.io/badge/Estado-En_Construcción-orange?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+    </p>        
   </td>
 </tr>
 </table>
@@ -64,17 +64,17 @@
   <table align="center">
 <tr border="none">
 <td width="50%" align="center">
-  <img  title="Racha de contribuciones" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO_DE_GITHUB&theme=dark&hide_border=false" /> 
+  <img  title="Racha de contribuciones" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=zBleend&theme=dark&hide_border=false" /> 
 </td>
 
 <td width="50%" align="center">
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=TU_USUARIO_DE_GITHUB&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=6"/>
+  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=zBleend&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=6"/>
   </td>
 </tr>
 </table>
 <div align=center>
   <a href="https://github.com/ryo-ma/github-profile-trophy" title="Trofeos">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=TU_USUARIO_DE_GITHUB&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=zBleend&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
     </a>
 </div>
 </p>
