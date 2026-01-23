@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋 soy Cristobal Alvarado / Full Stack en Formación ✨ </h1> 
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/cristobal-alvarado-abrigo-026b6b3a7" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/cristobal-a-abrigo/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:juancrichile@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"  /></a>
 </p>
 <br>
