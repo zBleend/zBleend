@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋 soy Cristobal Alvarado / Full Stack en Formación ✨ </h1> 
+<h1 align="center">Hola 👋 soy Cristobal Alvarado o Bleend en Redes / Full Stack en Formación </h1> 
 
 <p align="center">
   <a href="https://www.linkedin.com/in/cristobal-a-abrigo/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -14,7 +14,7 @@
 
 💻 Actualmente estoy transformando mi experiencia en gestión operativa hacia el desarrollo de software.
 
-📝 **Enfoque actual:** Aprendiendo lógica de programación backend, bases de datos y buenas prácticas de código limpio.
+📝 **Enfoque actual:** Aprendiendo lógica de programación frontend, backend, bases de datos y buenas prácticas de código limpio.
 
 📫 Contacto: **juancrichile@gmail.com**
 </p>
