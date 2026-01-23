@@ -12,7 +12,7 @@
 
 🎵 **PRODUCTOR MUSICAL PROFESIONAL (IP ARCOS)** Vengo del mundo de la música y la tecnología, donde aprendí que el código, al igual que una canción, necesita estructura y creatividad. 
 
-💻 Actualmente estoy transformando mi experiencia en gestión operativa (Almacén La Eskina) hacia el desarrollo de software.
+💻 Actualmente estoy transformando mi experiencia en gestión operativa hacia el desarrollo de software.
 
 📝 **Enfoque actual:** Aprendiendo lógica de programación backend, bases de datos y buenas prácticas de código limpio.
 
@@ -72,9 +72,4 @@
   </td>
 </tr>
 </table>
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Trofeos">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=zBleend&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-    </a>
-</div>
 </p>
