@@ -69,7 +69,7 @@
   <td width="50%" align="center">
     <h3>⏰ Reloj Digital</h3>
     <p align="center">
-        Relog digital creado en HTML, CSS y JavaScript.
+        Reloj digital creado en HTML, CSS y JavaScript.
     </p>
     <p align="center">
         <a href="https://github.com/zBleend/RelojDigital" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
