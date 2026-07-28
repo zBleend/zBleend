@@ -6,7 +6,7 @@
 </p>
 <br>
 
-<h2>Sobre mí 😃</h2>
+<h2>Sobre mí</h2>
 <p align="left">
 
 🎓 **ESTUDIANTE DE ANALISTA PROGRAMADOR (Duoc UC)**
@@ -21,16 +21,16 @@
 </p>
 <br>
 
-<h2 >Tecnologías (Stack actual) 👨🏻‍💻</h2>
+<h2>Tecnologías (Stack actual) 👨🏻‍💻</h2>
 <p align="left">
   <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=py,java,git,github,linkedin,kotlin,html,css,js,mysql,vscode,idea,aws,ableton,bash&perline=12" />
+        <img src="https://skillicons.dev/icons?i=py,java,git,github,linkedin,kotlin,html,css,js,mysql,vscode,idea,aws,ableton,bash,rust&perline=12" />
   </a>
 </p>
 <br>
 
 <div id="proyectos">
-<h2 >Proyectos Académicos 👨🏻‍💻</h2>
+<h2>Proyectos Académicos y Personales 👨🏻‍💻</h2>
 
 <table align="center" width="100%">
 <tr border="none">
@@ -65,13 +65,36 @@
         <a href="https://github.com/zBleend/Probando-JDBC" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
     </p>        
   </td>
-    <td width="50%" align="center">
-    <h3>🔜 Próximamente...</h3>
+
+  <td width="50%" align="center">
+    <h3>⏰ Reloj Digital</h3>
     <p align="center">
-        Desarrollando nuevas soluciones.
+        Relog digital creado en HTML, CSS y JavaScript.
     </p>
     <p align="center">
-        <img align="center" src="https://img.shields.io/badge/En_Proceso...-gray?style=for-the-badge" alt="Loading" />
+        <a href="https://github.com/zBleend/RelojDigital" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+    </p>        
+  </td>
+</tr>
+
+<tr border="none">
+  <td width="50%" align="center">
+    <h3>🧮 Calculadora Java Swing</h3>
+    <p align="center">
+        Interfaz gráfica interactiva para operaciones matemáticas.
+    </p>
+    <p align="center">
+        <a href="https://github.com/zBleend/Calculadora-Java-Swing" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+    </p>        
+  </td>
+
+  <td width="50%" align="center">
+    <h3>🛠️ App Mantenimiento (Rust)</h3>
+    <p align="center">
+        Sistema de mantenimiento para Windows 11 desarrollado en Rust.
+    </p>
+    <p align="center">
+        <a href="https://github.com/zBleend/AppMantenimientoRust" target="blank"><img align="center" src="https://img.shields.io/badge/Ver_Código-100000?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
     </p>        
   </td>
 </tr>
