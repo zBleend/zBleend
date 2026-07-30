@@ -24,7 +24,7 @@
 <h2>Tecnologías (Stack actual) 👨🏻‍💻</h2>
 <p align="left">
   <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=py,java,spring,git,github,kotlin,html,css,js,vscode,aws,ableton,bash,rust&perline=12" />
+        <img src="https://skillicons.dev/icons?i=py,java,spring,github,kotlin,html,css,js,vscode,aws,ableton,bash,rust&perline=12" />
   </a>
 </p>
 <br>
@@ -102,8 +102,3 @@
 </div>
 <br>
 <br>
-
-<h2>GitHub Stats :octocat:</h2>
-<p align="center">
-  <img title="Racha de contribuciones" alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=zBleend&theme=dark&hide_border=false" /> 
-</p>
