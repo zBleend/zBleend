@@ -24,7 +24,7 @@
 <h2>Tecnologías (Stack actual) 👨🏻‍💻</h2>
 <p align="left">
   <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=py,java,spring,github,kotlin,html,css,js,vscode,aws,ableton,bash,rust&perline=12" />
+        <img src="https://skillicons.dev/icons?i=py,java,spring,github,kotlin,html,css,js,aws,ableton,bash,rust&perline=12" />
   </a>
 </p>
 <br>
