@@ -1,0 +1,130 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tecnologías">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Borde -->
+  <rect x="40" y="20" width="820" height="160" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Decoración japonesa -->
+  <text x="820" y="55" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-size="28" fill="#1a1a1a" opacity="0.4">技</text>
+
+  <!-- Título -->
+  <text x="60" y="50" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#333333" letter-spacing="2">STACK</text>
+
+  <!-- Tech icons con SVG minimalista -->
+  <g transform="translate(60, 70)">
+
+    <!-- Java -->
+    <g transform="translate(0, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Taza de café simplificada -->
+      <path d="M20 18 L20 30 L40 30 L40 18" fill="none" stroke="#e8d5b7" stroke-width="2" stroke-linecap="round"/>
+      <path d="M40 22 L46 22 L46 28 L40 28" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <path d="M24 15 L26 12" fill="none" stroke="#e8d5b7" stroke-width="1" opacity="0.5"/>
+      <path d="M30 14 L32 11" fill="none" stroke="#e8d5b7" stroke-width="1" opacity="0.5"/>
+      <path d="M36 15 L38 12" fill="none" stroke="#e8d5b7" stroke-width="1" opacity="0.5"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">Java</text>
+    </g>
+
+    <!-- Python -->
+    <g transform="translate(80, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Letras P y y -->
+      <text x="32" y="32" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#e8d5b7">Py</text>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">Python</text>
+    </g>
+
+    <!-- JavaScript -->
+    <g transform="translate(160, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <text x="32" y="32" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#e8d5b7">JS</text>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">JavaScript</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(240, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <text x="32" y="32" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#e8d5b7">TS</text>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">TypeScript</text>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(320, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Átomo React simplificado -->
+      <circle cx="32" cy="25" r="3" fill="#e8d5b7"/>
+      <ellipse cx="32" cy="25" rx="14" ry="6" fill="none" stroke="#e8d5b7" stroke-width="1" opacity="0.7"/>
+      <ellipse cx="32" cy="25" rx="14" ry="6" fill="none" stroke="#e8d5b7" stroke-width="1" opacity="0.7" transform="rotate(60 32 25)"/>
+      <ellipse cx="32" cy="25" rx="14" ry="6" fill="none" stroke="#e8d5b7" stroke-width="1" opacity="0.7" transform="rotate(120 32 25)"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">React</text>
+    </g>
+
+    <!-- Vue -->
+    <g transform="translate(400, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Escudo Vue simplificado -->
+      <path d="M32 15 L42 32 L38 32 L35 27 L29 27 L26 32 L22 32 Z" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <path d="M32 15 L38 32 L35 27 L32 32 L29 27 L26 32 L22 32 Z" fill="#e8d5b7" opacity="0.2"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">Vue</text>
+    </g>
+
+    <!-- SQL -->
+    <g transform="translate(480, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Base de datos simplificada -->
+      <ellipse cx="32" cy="20" rx="12" ry="5" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <path d="M20 20 L20 32" stroke="#e8d5b7" stroke-width="1.5"/>
+      <path d="M44 20 L44 32" stroke="#e8d5b7" stroke-width="1.5"/>
+      <ellipse cx="32" cy="32" rx="12" ry="5" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">SQL</text>
+    </g>
+
+    <!-- Docker -->
+    <g transform="translate(560, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Ballena Docker simplificada -->
+      <rect x="18" y="20" width="28" height="12" rx="2" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <rect x="22" y="16" width="4" height="4" fill="#e8d5b7" opacity="0.7"/>
+      <rect x="28" y="16" width="4" height="4" fill="#e8d5b7" opacity="0.7"/>
+      <rect x="34" y="16" width="4" height="4" fill="#e8d5b7" opacity="0.7"/>
+      <rect x="40" y="18" width="4" height="6" fill="#e8d5b7" opacity="0.7"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">Docker</text>
+    </g>
+
+    <!-- Git -->
+    <g transform="translate(640, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Rama Git simplificada -->
+      <circle cx="26" cy="20" r="4" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <circle cx="38" cy="28" r="4" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <line x1="26" y1="24" x2="38" y2="24" stroke="#e8d5b7" stroke-width="1.5"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">Git</text>
+    </g>
+
+    <!-- Linux -->
+    <g transform="translate(720, 0)">
+      <rect width="65" height="50" rx="3" fill="#0f0f0f" stroke="#222222" stroke-width="1"/>
+      <!-- Tux simplificado -->
+      <ellipse cx="32" cy="22" rx="8" ry="10" fill="none" stroke="#e8d5b7" stroke-width="1.5"/>
+      <circle cx="29" cy="19" r="1.5" fill="#e8d5b7"/>
+      <circle cx="35" cy="19" r="1.5" fill="#e8d5b7"/>
+      <ellipse cx="32" cy="25" rx="3" ry="2" fill="#e8d5b7" opacity="0.5"/>
+      <text x="32" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#555555">Linux</text>
+    </g>
+
+  </g>
+
+  <!-- Línea decorativa -->
+  <line x1="60" y1="145" x2="840" y2="145" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="60" y="165" font-family="'JetBrains Mono', monospace" font-size="9" fill="#222222" letter-spacing="1">FULLSTACK · CLEAN CODE · MUSIC</text>
+
+</svg>
