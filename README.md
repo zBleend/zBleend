@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Cristóbal - Code, Fullstack Developer and Music" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1000&color=c9a87c&center=true&vCenter=true&width=600&height=50&lines=Analista+Programador;Productor+Musical;Desarrollador+Fullstack;Code+%C2%B7+Music" alt="Typing SVG" />
+  <img src="assets/main.svg" width="100%" alt="Cristóbal - Code, Fullstack Developer and Music" />
 </p>
 
 <p align="center">
@@ -14,30 +10,6 @@
     <img src="https://img.shields.io/badge/Gmail-0a0a0a?style=flat-square&logo=gmail&logoColor=#c9a87c&labelColor=#1a1a1a" alt="Gmail"/>
   </a>
 </p>
-
-<br>
-
-<p align="center">
-  <img src="assets/sobre-mi.svg" width="100%" alt="Sobre mí" />
-</p>
-
-<br>
-
-<!-- Separador 刀 -->
-<p align="center"><code>══════════════════════════════════════════════════════════════════════</code></p>
-
-<br>
-
-## 技 Stack
-
-<p align="center">
-  <img src="assets/stack.svg" width="100%" alt="Tecnologías" />
-</p>
-
-<br>
-
-<!-- Separador 刀 -->
-<p align="center"><code>══════════════════════════════════════════════════════════════════════</code></p>
 
 <br>
 
@@ -127,9 +99,9 @@
 
 <!-- Footer -->
 <p align="center">
-  <sub style="color: #333333;">力 · 美 · 刀</sub>
+  <sub style="color: #666666;">力 · 美 · 刀</sub>
 </p>
 
 <p align="center">
-  <sub style="color: #222222;">2026 · Cristóbal</sub>
+  <sub style="color: #666666;">2026 · Cristóbal</sub>
 </p>
