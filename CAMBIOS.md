@@ -172,3 +172,46 @@ HTML · CSS · JS · React · Astro · Vue | Java · Spring · Python | GitHub �
 
 - GitHub **no soporta** `@media` queries en SVGs embebidos en Markdown (los SVGs se renderizan como `<img>` sin soporte CSS externo)
 - Las fuentes externas (Noto Sans JP, JetBrains Mono) fueron reemplazadas por fuentes del sistema para garantizar compatibilidad
+
+---
+
+## Rediseño 2026-09-15 — Estilo Ryoku (verde bosque)
+
+**Fecha:** 2026-09-15
+
+**Problema:** el profile se veía mal — pared de negro hardcodeado, SVG de 1200×900 ilegible en móvil, `@media` roto, decoración ruidosa (katana ASCII + kanjis superpuestos), terminal con `<animate>` que ocultaba su contenido hasta 6.4s.
+
+**Referencias de diseño:** [ryoku.dev](https://ryoku.dev/) (bone on black, rampa única, four tiers, radius 2, sin sombras) y su `showroom/special-1.webp` (paleta verde de bosque).
+
+### 1. Arquitectura: `main.svg` → `hero.svg` + `stack.svg`
+
+- `assets/main.svg` **eliminado** (1200×900, terminal + 17 iconos + katana ASCII todo en uno)
+- `assets/hero.svg` **creado** (~1000×340): nombre serif, watermark 力, katana fina, terminal estática compacta, colofón
+- `assets/stack.svg` **creado** (~1000×130): 17 glyphs custom en 2 filas, tiles radius 2
+
+### 2. Paleta nueva (tokens Ryoku verdes)
+
+```
+paper        #070907   negro con tinte verde
+line         #1d241c   hairline
+ink          #d3d2bc   hueso-verde (texto principal)
+ink-dim      #9aa888   secundario
+ink-muted    #6c7a5d   terciario
+ink-faint    #46503f   etiquetas/footer
+leaf         #7fae5f   único acento
+```
+
+Colofón: `PAPER #070907 · ONE RAMP · FOUR TIERS · MIN 4.6:1 · RADIUS 2 · NO SHADOW`
+
+### 3. README: textos en Markdown nativo
+
+- Hero + stack como SVGs; sobre mí, stack y proyectos en markdown que se **auto-adapta** a light/dark y móvil
+- Se eliminó: `<table>` con `background-color: #0a0a0a`, badges con `labelColor=#1a1a1a`, footnote `<sub>`
+- Headings temáticos con kanji: `力 · Sobre mí`, `美 · Stack`, `刀 · Proyectos`
+- Footer: `力 · 美 · 刀 — por la fuerza, la belleza y el filo`
+
+### Qué se perdió a propósito
+
+- **Katana ASCII** (opacity 0.25, 14 líneas) → silueta de filo fina (`stroke` 1px)
+- **Typing `<animate>`** → contenido estático siempre visible (en `<img>` no se reproduce bien y en captura se veía vacío)
+- **Badges shields oscuros por proyecto** → tech labels como `code` inline (auto-tema)
