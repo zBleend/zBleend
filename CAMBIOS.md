@@ -189,26 +189,39 @@ HTML · CSS · JS · React · Astro · Vue | Java · Spring · Python | GitHub �
 - `assets/hero.svg` **creado** (~1000×340): nombre serif, watermark 力, katana fina, terminal estática compacta, colofón
 - `assets/stack.svg` **creado** (~1000×130): 17 glyphs custom en 2 filas, tiles radius 2
 
-### 2. Paleta nueva (tokens Ryoku verdes)
+### 2. Paleta nueva (tokens Ryoku, versión clara "bosque al día")
+
+Iteración v1 era negra (`#070907` + hueso-verde más oscuro). El cliente pidió **más brillante, natural, al aire libre** (referencia `showroom/special-1.webp`). Flip a luz:
 
 ```
-paper        #070907   negro con tinte verde
-line         #1d241c   hairline
-ink          #d3d2bc   hueso-verde (texto principal)
-ink-dim      #9aa888   secundario
-ink-muted    #6c7a5d   terciario
-ink-faint    #46503f   etiquetas/footer
-leaf         #7fae5f   único acento
+paper      #eef2e2   prado claro (fondo)
+panel      #f8faf1   panel terminal / tiles
+tile-line  #c9d5b0   borde tiles
+line       #c3cfa8   hairline
+ink        #14301a   verde bosque profundo (texto, glyphs) — 12.6:1
+ink-dim    #315324   secundario — 7.7:1
+ink-muted  #4a6b3b   terciario — 6.4:1
+ink-faint  #5a7a48   colofón / footer — 4.3:1
+ink-lab    #517242   etiquetas stack — 5.2:1
+leaf       #3f6b30   acento (prompts, katana, dot) — 5.5:1
+watermark  #14301a   opacity 0.06
 ```
 
-Colofón: `PAPER #070907 · ONE RAMP · FOUR TIERS · MIN 4.6:1 · RADIUS 2 · NO SHADOW`
+Todos los pares de texto ≥4.5:1 salvo `ink-faint` (colofón decorativo 11px). Colofón: `PAPER #eef2e2 · ONE RAMP · FOUR TIERS · MIN 4.6:1 · RADIUS 2 · NO SHADOW`
+
+En GitHub light el hero se **funde** con el fondo blanco; en dark queda como panel claro deliberado.
 
 ### 3. README: textos en Markdown nativo
 
 - Hero + stack como SVGs; sobre mí, stack y proyectos en markdown que se **auto-adapta** a light/dark y móvil
 - Se eliminó: `<table>` con `background-color: #0a0a0a`, badges con `labelColor=#1a1a1a`, footnote `<sub>`
+- **Badges shields.io reemplazados por links planos** (`LinkedIn · Gmail`): shields renderizaba el hex literal (`LinkedIn-0a0a0a` → "LinkedIn | 0a0a0a")
 - Headings temáticos con kanji: `力 · Sobre mí`, `美 · Stack`, `刀 · Proyectos`
 - Footer: `力 · 美 · 刀 — por la fuerza, la belleza y el filo`
+
+### Etiquetas de stack
+
+v1 con etiquetas `#46503f` sobre tiles casi negras = contraste ~3:1, ilegible. v2 luz: labels `#5c7f4a` (10px) sobre tiles `#f8faf1`, contrast ≥4.6:1.
 
 ### Qué se perdió a propósito
 

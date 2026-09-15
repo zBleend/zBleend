@@ -2,140 +2,140 @@
   <style>
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
     .font-mono { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
-    .paper { fill: #070907; }
-    .ink { fill: #d3d2bc; }
-    .ink-faint { fill: #46503f; }
-    .tile { fill: #0a0f09; stroke: #1d241c; }
-    .glyph-stroke { fill: none; stroke: #d3d2bc; }
+    .paper { fill: #eef2e2; }
+    .ink { fill: #22361f; }
+    .ink-lab { fill: #517242; }
+    .tile { fill: #f8faf1; stroke: #c9d5b0; }
+    .glyph-stroke { fill: none; stroke: #22361f; }
   </style>
 
   <rect width="1000" height="130" class="paper"/>
 
   <!-- Fila 1 -->
-  <g font-size="16" font-weight="700" class="font-sans ink" text-anchor="middle">
+  <g font-size="17" font-weight="700" class="font-sans ink" text-anchor="middle">
     <!-- HTML -->
     <g transform="translate(59,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
-      <text x="-0" y="17" font-size="17">&#60;&#62;</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">HTML</text>
+      <text x="0" y="17" font-size="17">&#60;&#62;</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">HTML</text>
     </g>
     <!-- CSS -->
     <g transform="translate(171,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <text x="0" y="17" font-size="17">{ }</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">CSS</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">CSS</text>
     </g>
     <!-- JS -->
     <g transform="translate(283,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <text x="0" y="18" font-size="15">JS</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">JavaScript</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">JavaScript</text>
     </g>
     <!-- React -->
     <g transform="translate(395,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
-      <circle cx="0" cy="9" r="2.2" fill="#d3d2bc"/>
+      <circle cx="0" cy="9" r="2.2" fill="#22361f"/>
       <ellipse cx="0" cy="9" rx="8" ry="3" class="glyph-stroke" stroke-width="1" opacity="0.75"/>
       <ellipse cx="0" cy="9" rx="8" ry="3" class="glyph-stroke" stroke-width="1" opacity="0.75" transform="rotate(60)"/>
       <ellipse cx="0" cy="9" rx="8" ry="3" class="glyph-stroke" stroke-width="1" opacity="0.75" transform="rotate(120)"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">React</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">React</text>
     </g>
     <!-- Astro -->
     <g transform="translate(507,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <circle cx="0" cy="8" r="3.5" class="glyph-stroke" stroke-width="1.2"/>
-      <circle cx="-9" cy="16" r="1.5" fill="#d3d2bc" opacity="0.6"/>
-      <circle cx="7" cy="5" r="1.2" fill="#d3d2bc" opacity="0.4"/>
-      <circle cx="8" cy="15" r="1" fill="#d3d2bc" opacity="0.3"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Astro</text>
+      <circle cx="-9" cy="16" r="1.5" fill="#22361f" opacity="0.6"/>
+      <circle cx="7" cy="5" r="1.2" fill="#22361f" opacity="0.4"/>
+      <circle cx="8" cy="15" r="1" fill="#22361f" opacity="0.3"/>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Astro</text>
     </g>
     <!-- Vue -->
     <g transform="translate(619,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
-      <path d="M0 2 L8 18 L6 18 L3 9 L0 16 L-3 9 L-6 18 L-8 18 Z" fill="none" stroke="#d3d2bc" stroke-width="1.3"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Vue</text>
+      <path d="M0 2 L8 18 L6 18 L3 9 L0 16 L-3 9 L-6 18 L-8 18 Z" fill="none" stroke="#22361f" stroke-width="1.3"/>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Vue</text>
     </g>
     <!-- Java -->
     <g transform="translate(731,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
-      <path d="M-8 2 L-8 12 L8 12 L8 2" fill="none" stroke="#d3d2bc" stroke-width="1.8" stroke-linecap="round"/>
-      <path d="M8 5 L11 5 L11 10 L8 10" fill="none" stroke="#d3d2bc" stroke-width="1.3"/>
-      <path d="M-2 -2 L-1 -4 M2 -3 L3 -5 M6 -2 L7 -4" stroke="#d3d2bc" stroke-width="1" opacity="0.5"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Java</text>
+      <path d="M-8 2 L-8 12 L8 12 L8 2" fill="none" stroke="#22361f" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8 5 L11 5 L11 10 L8 10" fill="none" stroke="#22361f" stroke-width="1.3"/>
+      <path d="M-2 -2 L-1 -4 M2 -3 L3 -5 M6 -2 L7 -4" stroke="#22361f" stroke-width="1" opacity="0.5"/>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Java</text>
     </g>
     <!-- Spring -->
     <g transform="translate(843,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <circle cx="0" cy="9" r="6.5" class="glyph-stroke" stroke-width="1" opacity="0.4"/>
-      <circle cx="0" cy="9" r="1.5" fill="#7fae5f"/>
-      <path d="M-6 4 A8 8 0 0 1 4 -4" fill="none" stroke="#d3d2bc" stroke-width="1"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Spring</text>
+      <circle cx="0" cy="9" r="1.5" fill="#3f6b30"/>
+      <path d="M-6 4 A8 8 0 0 1 4 -4" fill="none" stroke="#22361f" stroke-width="1"/>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Spring</text>
     </g>
     <!-- Python -->
     <g transform="translate(955,8)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <text x="0" y="19" font-size="17">Py</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Python</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Python</text>
     </g>
   </g>
 
   <!-- Fila 2 -->
-  <g font-size="16" font-weight="700" class="font-sans ink" text-anchor="middle">
+  <g font-size="17" font-weight="700" class="font-sans ink" text-anchor="middle">
     <!-- GitHub -->
     <g transform="translate(71,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <circle cx="0" cy="9" r="8" class="glyph-stroke" stroke-width="1.3"/>
       <circle cx="0" cy="6.5" r="3.2" class="glyph-stroke" stroke-width="1"/>
       <path d="M-7 16 Q0 21 7 16" class="glyph-stroke" stroke-width="1" opacity="0.8"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">GitHub</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">GitHub</text>
     </g>
     <!-- Kotlin -->
     <g transform="translate(194,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <text x="0" y="18" font-size="18">K</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Kotlin</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Kotlin</text>
     </g>
     <!-- VSCode -->
     <g transform="translate(317,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <rect x="-8" y="1" width="16" height="15" rx="2" class="glyph-stroke" stroke-width="1.3"/>
-      <text x="0" y="13" class="font-mono" font-size="7" font-weight="400" fill="#d3d2bc">&#60;/&#62;</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">VSCode</text>
+      <text x="0" y="13" class="font-mono" font-size="7" font-weight="400" fill="#22361f">&#60;/&#62;</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">VSCode</text>
     </g>
     <!-- Android Studio -->
     <g transform="translate(440,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <circle cx="0" cy="9" r="7" class="glyph-stroke" stroke-width="1.3"/>
-      <circle cx="-3.5" cy="8" r="1.3" fill="#d3d2bc"/>
-      <circle cx="3.5" cy="8" r="1.3" fill="#d3d2bc"/>
-      <line x1="-2" y1="2" x2="-3" y2="-2" stroke="#d3d2bc" stroke-width="1"/>
-      <line x1="2" y1="2" x2="3" y2="-2" stroke="#d3d2bc" stroke-width="1"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Android</text>
+      <circle cx="-3.5" cy="8" r="1.3" fill="#22361f"/>
+      <circle cx="3.5" cy="8" r="1.3" fill="#22361f"/>
+      <line x1="-2" y1="2" x2="-3" y2="-2" stroke="#22361f" stroke-width="1"/>
+      <line x1="2" y1="2" x2="3" y2="-2" stroke="#22361f" stroke-width="1"/>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Android</text>
     </g>
     <!-- IntelliJ -->
     <g transform="translate(563,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <text x="0" y="18" font-size="13">IJ</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">IntelliJ</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">IntelliJ</text>
     </g>
     <!-- AWS -->
     <g transform="translate(686,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
       <path d="M-7 10 Q-4 6 0 6 Q4 6 7 10" class="glyph-stroke" stroke-width="1.3"/>
       <path d="M-5 15 Q0 12 5 15" class="glyph-stroke" stroke-width="1" opacity="0.6"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">AWS</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">AWS</text>
     </g>
     <!-- Ableton -->
     <g transform="translate(809,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
-      <path d="M-9 16 v-5 M-3 16 v-7 M3 16 v-9 M9 16 v-5" stroke="#d3d2bc" stroke-width="3.4" stroke-linecap="round"/>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Ableton</text>
+      <path d="M-9 16 v-5 M-3 16 v-7 M3 16 v-9 M9 16 v-5" stroke="#22361f" stroke-width="3.4" stroke-linecap="round"/>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Ableton</text>
     </g>
     <!-- Bash -->
     <g transform="translate(932,66)">
       <rect x="-45" y="0" width="90" height="52" rx="2" class="tile"/>
-      <text x="0" y="18" class="font-mono" font-size="12" font-weight="400" fill="#d3d2bc">$_</text>
-      <text x="0" y="44" class="font-mono ink-faint" font-size="9" font-weight="400">Bash</text>
+      <text x="0" y="18" class="font-mono" font-size="12" font-weight="400" fill="#22361f">$_</text>
+      <text x="0" y="44" class="font-mono ink-lab" font-size="10" font-weight="400">Bash</text>
     </g>
   </g>
 </svg>

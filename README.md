@@ -3,12 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/cristobal-a-abrigo/">
-    <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=flat-square&logo=linkedin&logoColor=d3d2bc" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:juancrichile@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-0a0a0a?style=flat-square&logo=gmail&logoColor=d3d2bc" alt="Gmail"/>
-  </a>
+  <a href="https://www.linkedin.com/in/cristobal-a-abrigo/"><b>LinkedIn</b></a> · <a href="mailto:juancrichile@gmail.com"><b>Gmail</b></a>
 </p>
 
 ## 力 · Sobre mí
@@ -19,7 +14,6 @@ El código, como la música: estructura y creatividad.
 
 - frontend, backend y bases de datos
 - código limpio
-- **[juancrichile@gmail.com](mailto:juancrichile@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/cristobal-a-abrigo/)
 
 ## 美 · Stack
 
