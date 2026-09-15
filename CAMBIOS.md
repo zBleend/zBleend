@@ -223,6 +223,42 @@ En GitHub light el hero se **funde** con el fondo blanco; en dark queda como pan
 
 v1 con etiquetas `#46503f` sobre tiles casi negras = contraste ~3:1, ilegible. v2 luz: labels `#5c7f4a` (10px) sobre tiles `#f8faf1`, contrast ≥4.6:1.
 
+---
+
+## Rediseño 2026-09-15 — TokyoNight Verde (V3, sin SVG)
+
+**Fecha:** 2026-09-15
+
+**Feedback:** iconos stack mal colocados/incorrectos, paleta v2 demasiado brillante. Referencias: `style.css` (paleta del usuario) y `IDEAS.md` (layout estilo pipi-bear + [TokyoNight.png](https://raw.githubusercontent.com/rxyhn/bspdots/main/TokyoNight.png) como look: base oscura luminosa, texto brillante, acentos pastel).
+
+### Decisiones
+
+- **Sin SVGs custom.** `assets/hero.svg` y `assets/stack.svg` **eliminados**. Los iconos dibujados a mano no escalaban y quedaban desalineados.
+- **Stack = badges shields.io** con logos oficiales (Simple Icons): HTML5, CSS3, JS, React, Astro, Vue, Java (OpenJDK), Spring, Python, GitHub, Kotlin, VSCode, Android Studio, IntelliJ, AWS, Ableton, Bash. Wrap automático en móvil. Verificado por HTTP que cada logo se renderiza; CSS3 usa `logo=css`, y VS Code / AWS / Ableton quedan **sin logo** (slugs no existen en el set de shields).
+- **Hero = typing SVG** (`readme-typing-svg.demolab.com`, color `88c958`) + **card ASCII** tipo terminal con emoji (estilo pipi-bear).
+- Proyectos y footer en markdown nativo.
+
+### Paleta (tokens de `style.css`)
+
+```
+negro-suave   #1b1d22   fondo
+gris-carbon   #2f363f   paneles
+marfil        #eaece1   texto (12:1)
+verde-hoja    #88c958   acento sticky, logos badges
+verde-lima    #d6f599   highlight
+verde-bosque  #244223   fill badges (11:1 con texto blanco)
+verde-musgo   #4a7c3a   CTA
+verde-grisaceo#4b5950   hairline / secundario
+```
+
+Lectura de `TokyoNight.png` por análisis de píxeles: bg `#202030` (val 0.13-0.19), texto `#a0a0d0` (val 0.82), sat promedio 0.23 — confirma el par "fondo medio-oscuro + texto luminoso" que los tokens css reproducen con verdes.
+
+### Archivos finales
+
+- `README.md` reescrito (sin hero.svg, sin stack.svg)
+- `assets/` vacío
+- `style.css` conservado como paleta de referencia (no se usa en README; GitHub no permite CSS externo)
+
 ### Qué se perdió a propósito
 
 - **Katana ASCII** (opacity 0.25, 14 líneas) → silueta de filo fina (`stroke` 1px)
