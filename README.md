@@ -24,8 +24,6 @@ cristobal@zbleend
   <img src="https://img.shields.io/badge/CSS3-244223?style=flat&logo=css&logoColor=88c958&labelColor=244223" alt="CSS3"/>
   <img src="https://img.shields.io/badge/JavaScript-244223?style=flat&logo=javascript&logoColor=88c958&labelColor=244223" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/React-244223?style=flat&logo=react&logoColor=88c958&labelColor=244223" alt="React"/>
-  <img src="https://img.shields.io/badge/Astro-244223?style=flat&logo=astro&logoColor=88c958&labelColor=244223" alt="Astro"/>
-  <img src="https://img.shields.io/badge/Vue-244223?style=flat&logo=vuedotjs&logoColor=88c958&labelColor=244223" alt="Vue"/>
   <img src="https://img.shields.io/badge/Java-244223?style=flat&logo=openjdk&logoColor=88c958&labelColor=244223" alt="Java"/>
   <img src="https://img.shields.io/badge/Spring-244223?style=flat&logo=spring&logoColor=88c958&labelColor=244223" alt="Spring"/>
   <img src="https://img.shields.io/badge/Python-244223?style=flat&logo=python&logoColor=88c958&labelColor=244223" alt="Python"/>
